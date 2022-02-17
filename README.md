@@ -1,7 +1,5 @@
 # predicting-us-wildfires
 
-## This file/repo contains information related to our nlp project, using scraped data from git hub repositories
-
 
 ## Project Goals
 Our overall goal is...
