@@ -61,7 +61,7 @@ def prep_fires(fires):
     # lowercase column names
     fires.columns = fires.columns.str.lower()
     # rename column name
-    fires.rename(columns={'nwcg_general_cause':'general_cause'}, inplace=True)
+    fires.rename(columns={'nwcg_general_cause':'general_cause', 'cont_date':'containment_date'}, inplace=True)
     return fires
 
 def wrangle_fires():
