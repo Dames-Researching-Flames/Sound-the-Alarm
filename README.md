@@ -13,9 +13,13 @@
     
 <hr style="border:2px solid blue"> </hr>
 ## Project Goals
-Our overall goal is...
+With over 1.88 million recorded wildfires and a total of 140 million acres burned, human intervention is needed to reduce the devastation and destruction caused by wildfires. Our oveall goal is to see how US wildfires have changed over the years to promote active solutions to reduce the prevalence of wildfires.
 
 ## Project Description
+
+A wildfire is an unplanned fire that burns in a natural area such as a forest, grassland, or prairie.  Wildfires typically spread quickly over woodland or brush and can lead to negative effects such as the deterioration of the air quality, loss of property, crops, resources, animals and people.  In an effort to aid in the reduction of destruction and detriments of this phenomena, we've investigated key drivers of wildfires and hope to share our findings to encourage human intervention to alleviate the number of wildfires in the future.  In our process of investigation, we acquired the database of wildfires that occurred in the United States from 1992 to 2015 that were obtained from the reporting systems of federal, state, and local fire organizations. We transformed our data to be used in an exploratory analysis to identify the key drivers that lead to wildfires.
+
+
 
 
 ## The Plan
@@ -67,11 +71,14 @@ Our overall goal is...
 
                 
 ## Key findings, recommendations and takeaways
-- 
-- 
-- 
+- The top five states that have the most wildfires occurring are California, Georgia, Texas, North Carolina, Florida.
+- When we compare the total amount of acres burned versus location Oklahoma has a significantly higher amount of land burned compared to all.
+- Diving further into why Oklahoma has a significantly more fire size, we found that Largest fire, name the Starbuck fire, occurred in 2017 in the state of Oklahoma and was 55,755 acres more than previously recorded largest fire that occurred in Arkansas in 1997.
+- Occurences of wildfires has increased over time.
+- Wildfires over the span of years are particularly more prevalent on weekends and during the month of July followed by March and April.
+- The destruction of wildfires is increasing marginally as time progresses.
+- Human activity is the number one cause of wildfires
 
- 
 
  
 ## Recommendations
