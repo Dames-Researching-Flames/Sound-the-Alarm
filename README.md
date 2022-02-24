@@ -12,7 +12,9 @@
 </div align="center">
     
 <hr style="border:2px solid blue"> </hr>
+
 ## Project Goals
+
 With over 1.88 million recorded wildfires and a total of 140 million acres burned, human intervention is needed to reduce the devastation and destruction caused by wildfires. Our oveall goal is to see how US wildfires have changed over the years to promote active solutions to reduce the prevalence of wildfires.
 
 ## Project Description
