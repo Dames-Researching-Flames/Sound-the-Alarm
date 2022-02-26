@@ -28,7 +28,21 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 
 **Plan - Acquire - Prepare - Explore - Model - Deliver**
 
-
+- Wrangle
+    - Acquire data by downloading dataset from Kaggle and saving CSV file locally.
+    - Prepare data by dropping unneeded columns, converted columns to datetime, rename columns for clarity.
+    - We will create a function that we can reference later to acquire and prepare the data by storing the function in a file name wrangle.py
+- Explore
+    - Create visualizations that pin point driving forces of wildfires
+    - Create a visualizations supporting findings of initial exploration questions
+    - Run statistical tests that will support whether the hypothesis has been rejected or not
+- Modeling
+    - To be determined...
+- Delivery
+    - README with project details
+    - Python modules with acquire and prepare functions
+    - Final Report in Jupyter Notebook
+    - Presentation using Canva with slide show which includes executive summary details
 
 
 
@@ -75,7 +89,7 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 ## Key findings, recommendations and takeaways
 - The top five states that have the most wildfires occurring are California, Georgia, Texas, North Carolina, Florida.
 - When we compare the total amount of acres burned versus location Oklahoma has a significantly higher amount of land burned compared to all.
-- Diving further into why Oklahoma has a significantly more fire size, we found that Largest fire, name the Starbuck fire, occurred in 2017 in the state of Oklahoma and was 55,755 acres more than previously recorded largest fire that occurred in Arkansas in 1997.
+- Diving further into why Oklahoma has a significantly higher fire size, we found that the largest fire, named the Starbuck fire, occurred in 2017 in the state of Oklahoma and was 55,755 acres more than previously recorded largest fire that occurred in Arkansas in 1997.
 - Occurences of wildfires has increased over time.
 - Wildfires over the span of years are particularly more prevalent on weekends and during the month of July followed by March and April.
 - The destruction of wildfires is increasing marginally as time progresses.
@@ -84,7 +98,7 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 
  
 ## Recommendations
-- 
+- We can implement protective measures ...
  
 
 ## Next steps
