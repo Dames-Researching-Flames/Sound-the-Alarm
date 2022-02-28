@@ -97,9 +97,25 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 
 
  
-## Recommendations
-- We can implement protective measures ...
- 
+# Conclusion
 
-## Next steps
-- 
+## Summary:
+Key Takeaways:
+
+- Wildfires are lasting for a longer amount of time, leading to more acres burned.
+- The number one cause of wildfires is debris/open burning, especially in Texas.
+- Texas has the third most wildfires in the US, with California being first and Georgia being second.
+- Humans are the cause for most wildfires.
+
+
+# Conclusion Recommendations:
+Considering human involvement is the number one cause for wildfires in the US, possible recommendations include:
+- Awareness: Spreading education on safe open burning practices with pamphlets/brouchures
+- Action: Implementing safe open burning procedures or limit open burning
+    - Reduction in trash/waste by recycling
+    - Extinguishing campfires, BBQ pits/grills, fireplaces
+    - Don't leave fires unattended
+    - Open burn during months less prone to wildfires
+
+# Conclusion Next Steps:
+- Analyze and include additional data that includes weather reports on precipitation levels, dryness, wind.
