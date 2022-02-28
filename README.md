@@ -62,9 +62,10 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 
 
 ##  Steps to Reproduce
-- 
-- 
-- 
+- Read this README
+- Download CSV from Kaggle using this link: https://www.kaggle.com/rtatman/188-million-us-wildfires 
+- Clone this repo (including an acquire.py and prepare.py) (confirm .gitignore is hiding your env.py file)
+- Document conclusions, takeaways, and next steps in the Final Report Notebook.
 
 
 
@@ -108,7 +109,7 @@ Key Takeaways:
 - Humans are the cause for most wildfires.
 
 
-# Conclusion Recommendations:
+## Conclusion Recommendations:
 Considering human involvement is the number one cause for wildfires in the US, possible recommendations include:
 - Awareness: Spreading education on safe open burning practices with pamphlets/brouchures
 - Action: Implementing safe open burning procedures or limit open burning
@@ -117,5 +118,5 @@ Considering human involvement is the number one cause for wildfires in the US, p
     - Don't leave fires unattended
     - Open burn during months less prone to wildfires
 
-# Conclusion Next Steps:
+## Conclusion Next Steps:
 - Analyze and include additional data that includes weather reports on precipitation levels, dryness, wind.
