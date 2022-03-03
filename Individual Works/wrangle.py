@@ -1,5 +1,6 @@
 import sqlite3
 import pandas as pd
+import explore
 
 def acquire_fires():
     '''
@@ -62,6 +63,8 @@ def prep_fires(fires):
     fires.columns = fires.columns.str.lower()
     # rename column name
     fires.rename(columns={'nwcg_general_cause':'general_cause', 'cont_date':'containment_date'}, inplace=True)
+    fires = explore.label_regions(fires)
+    fires['fire_size_cat'] = np.where(fires.fire_size < 5000, 'small', 'large')
     return fires
 
 def wrangle_fires():
