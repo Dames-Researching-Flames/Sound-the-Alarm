@@ -1,5 +1,6 @@
 import sqlite3
 import pandas as pd
+import numpy as np
 import explore
 
 def acquire_fires():
