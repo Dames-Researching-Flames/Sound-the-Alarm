@@ -6,8 +6,6 @@
 # README
 
 ### by Lori Ainslie, Jeanette Schulz, Kristine Cabanela, and Sophia Stewart 
-### Last Updated: 01 March 2022
-
 
 </div align="center">
     
@@ -19,14 +17,12 @@ With over 2.16 million recorded wildfires and over 164 million acres burned, hum
 
 ## Project Description
 
-A wildfire is an unplanned fire that burns in a natural area such as a forest, grassland, or prairie.  Wildfires typically spread quickly over woodland or brush and can lead to negative effects such as the deterioration of air quality, loss of property, crops, resources, animals and people.  In an effort to aid in the reduction of destruction and detriments of this phenomena, we've investigated key drivers of wildfires and hope to share our findings to encourage human intervention to alleviate the number of wildfires in the future. We acquired a database from the reporting systems of federal, state, and local fire organizations of U.S. wildfires that occurred between 1992 and 2018. We transformed the data and conducted extensive exploratory analysis to identify the key drivers of wildfires.
-
-
+A wildfire is an unplanned fire that burns in a natural area such as a forest, grassland, or prairie.  Wildfires typically spread quickly over woodland or brush and can lead to negative effects such as the deterioration of air quality, loss of property, crops, resources, animals and people.  In an effort to aid in the reduction of destruction and detriments of this phenomena, we've investigated key drivers of wildfires and hope to share our findings to encourage human intervention to alleviate the number of wildfires in the future. We acquired a database from a US Department of Agriculture publication of over two milliion wildfires that had occurred in the U.S. between 1992 and 2018. We transformed the data and conducted extensive exploratory analysis to identify the key drivers of wildfires.
 
 
 ## The Plan
 
-**Plan - Acquire - Prepare - Explore - Model - Deliver**
+**Plan - Acquire - Prepare - Explore - Deliver**
 
 - Wrangle
     - Acquire data by downloading dataset from [U.S. DEPARTMENT OF AGRICULTURE](https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.5) and saving CSV file locally.
@@ -41,9 +37,6 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
     - Final Report as a Jupyter Notebook
     - Presentation using Canva
 
-
-
-
  
 ## Initial Questions
 
@@ -56,8 +49,6 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 - Is it taking longer to contain and/or extinguish fires than it did in the past?
 
 
-
-
 ##  Steps to Reproduce
 - Read this README
 - Unzip fires.csv file  or
@@ -67,11 +58,7 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 - Run Final_Report.ipynb
 
 
-
-
 ## Data Dictionary
-
- 
 
 | Variable          | Description                                                  |Data types|
 | ----------------- | -----------------------------------------------------------  |----------|
@@ -83,37 +70,31 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
 | latitude          | Latitude (NAD83) for point location of the fire (decimal degrees). |  float64         |
 | longitude         | Longitude (NAD83) for point location of the fire (decimal degrees). | float64         |
 | state             | The state in which the fire burned (or originated), based on the nominal designation in the fire report. |   object         |
+| state_size        | The state size in acres |   float64         |
 | year             | Calendar year in which the fire was discovered or confirmed to exist. |   object         |
 | region            | The region in which the fire burned (or originated), based on the nominal designation in the fire report. |   object         |
-| days_fire_existed             | The number of days it took for a wildfire to be considered contained. (discovery_date - containment date) |  object         |
-
-
-
+| region_size      | The region size in acres |   float64         |
+| fire_size_cat    | The fire size category ('large': 5,000 acres or larger (NWCG Class G), 'small': less than 5,000 acres) |  object         |
 
                 
-## Key findings, recommendations and takeaways
-- The top five states that have the most wildfires occurring are California, Georgia, Texas, North Carolina, and Florida.
-- When we compare the total amount of acres burned versus location Oklahoma has a significantly higher amount of land burned compared to all.
-- Diving further into why Oklahoma has a significantly higher fire size, we found that the largest fire, named the Starbuck fire, occurred in 2017 in the state of Oklahoma and was 55,755 acres more than previously recorded largest fire that occurred in Arkansas in 1997.
-- Occurences of wildfires has increased over time.
-- Wildfires over the span of years are particularly more prevalent on weekends and during the month of July followed by March and April.
-- The destruction of wildfires is increasing marginally as time progresses.
-- Human activity is the number one cause of wildfires
+## Exploration Findings
+- The months of July, March, and April have the largest number of wildfires that occur.
+- The number of wildfires from 1992 - 2018 shows a slight upward trend but the area burned by those wildfires shows a significant upward trend.
+- Large wildfires are increasing more so than small wildfires and are a major component of global warming.
+- The number one cause for overall number of wildfires is from human activity while the number one cause for large wildfires is from natural causes
+- California, Georgia, and Texas are the top three states for number of wildfires while Alaska, California, and Idaho are the top three for total area burned by wildfires.
+- The largest fire in the dataset, named the Starbuck fire, occurred in 2017 in the state of Oklahoma and was 55,755 acres more than the previously recorded largest fire that occurred in Arkansas in 1997.
 
 
- 
 # Conclusion
 
-## Summary:
-Key Takeaways:
-
-- Wildfires are lasting for a longer amount of time, leading to more acres burned.
-- The number one cause of wildfires is debris/open burning, especially in Texas.
-- Texas has the third most wildfires in the US, with California being first and Georgia being second.
-- Humans are the cause for most wildfires.
+## Key Takeaways:
+-  The number of wildfires has stayed pretty steady over the years but the amount of destruction caused by wildfires has increased and is continuing on an upward trend.
+- The western region of the U.S. has the most destruction from wildfires and the southeastern region has the largest number of wildfires.
+- Most wildfires are caused by humans through debris and open burning and are preventable.
 
 
-## Conclusion Recommendations:
+## Recommendations:
 Considering human involvement is the number one cause for wildfires in the US, possible recommendations include:
 - Awareness: Spreading education on safe open burning practices with pamphlets/brouchures
 - Action: Implementing safe open burning procedures or limit open burning
@@ -122,5 +103,5 @@ Considering human involvement is the number one cause for wildfires in the US, p
     - Don't leave fires unattended
     - Open burn during months less prone to wildfires
 
-## Conclusion Next Steps:
+## Next Steps:
 - Analyze and include additional data that includes weather reports on precipitation levels, dryness, wind.
