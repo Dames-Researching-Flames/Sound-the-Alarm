@@ -39,7 +39,7 @@ A wildfire is an unplanned fire that burns in a natural area such as a forest, g
     - README with project details
     - Python modules with acquire and prepare functions
     - Final Report as a Jupyter Notebook
-    - Presentation using Google Slides
+    - Presentation using Canva
 
 
 
